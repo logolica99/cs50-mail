@@ -1,0 +1,40 @@
+textarea {
+    min-height: 400px;
+}
+
+
+
+
+.element{
+    display: flex;
+    
+
+    cursor: pointer;
+    margin:10px;
+    border: 2px solid rgb(180, 179, 179);
+    
+    padding: 8px;
+    transition: all 200ms ease-in-out;
+}
+.element:hover{
+    background-color: rgb(215, 232, 235);
+
+}
+.read{
+    background-color: rgb(214, 214, 214);
+}
+.unread{
+    background-color: white;
+}
+.time{
+    
+    flex:1;
+    color:rgb(122, 122, 122);
+}
+.subject{
+    flex:2;
+}
+.to{
+    flex:1;
+    font-weight:700;
+}
